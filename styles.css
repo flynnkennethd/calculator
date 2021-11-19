@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#calculator-body {
+    background-color: red;
+}
+#calculator-display {
+    background-color: white;
+}
+#calculator-buttons {
+    background-color: red;
+}
+#calc-button {
+    background-color: green;
+}
