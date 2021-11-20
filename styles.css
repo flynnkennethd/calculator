@@ -2,16 +2,31 @@
     margin: 0;
     padding: 0;
 }
-
+html, body {
+    height: 100%;
+}
 #calculator-body {
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    justify-content: space-between;
 }
 #calculator-display {
     background-color: white;
 }
 #calculator-buttons {
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
 }
 #calc-button {
     background-color: green;
+    color: red;
+}
+#row1, #row2, #row3, #row4, #row5 {
+    display: flex;
+
 }
