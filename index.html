@@ -4,45 +4,46 @@
         <meta charset='utf-8'>
         <title>Calculator</title>
         <link rel='stylesheet' href='styles.css'>
+        <script src='script.js' defer></script>
     </head>
     <body>
         <header>
             <h1>Calculator Machine</h1>
         </header>
         <div id=calculator-body>
-            <div id=calculator-display></div>
-            <div id=calculator-buttons>
+            <div id=calculator-display>
+                <div id=previous-displayed>789456123</div>
+                <div id=current-displayed>123456</div>
+            </div>
+            <button class="calc-button span2">clear</button>
+            <button class="calc-button">delete</button>
+            <button class=calc-button>+</button>
+
+            <button class=calc-button>7</button>
+            <button class=calc-button>8</button>
+            <button class=calc-button>9</button>
+            <button class=calc-button>-</button>
                 
-                    <button id=delete class="calc-button top-buttons">delete</button>
-                    <button id=clear class="calc-button top-buttons">clear</button>
-                
-                    <button id=7 class=calc-button>7</button>
-                    <button id=8 class=calc-button>8</button>
-                    <button id=9 class=calc-button>9</button>
-                    <button id=add class=calc-button>+</button>
-                     
-                    <button id=4 class=calc-button>4</button>
-                    <button id=5 class=calc-button>5</button>
-                    <button id=6 class=calc-button>6</button>
-                    <button id=subtract class=calc-button>-</button>
-                
-                    <button id=1 class=calc-button>1</button>
-                    <button id=2 class=calc-button>2</button>
-                    <button id=3 class=calc-button>3</button>
-                    <button id=multiply class=calc-button>x</button>
-                
-                    <button id=decimal class=calc-button>.</button>
-                    <button id=0 class=calc-button>0</button>
-                    <button id=equals class=calc-button>=</button>
-                    <button id=divide class=calc-button>&#247</button>    
-                
+            <button class=calc-button>4</button>
+            <button class=calc-button>5</button>
+            <button class=calc-button>6</button>
+            <button class=calc-button>x</button>
+        
+            <button class=calc-button>1</button>
+            <button class=calc-button>2</button>
+            <button class=calc-button>3</button>
+            <button class=calc-button>&#247</button>
+        
+            <button class=calc-button>.</button>
+            <button class=calc-button>0</button>
+            <button class="calc-button span2">=</button>
         </div>
-    </div>
         <footer>
-            <p>This is a project by Kenneth Flynn | Check out my
+            <p>
+                This is a project by Kenneth Flynn | Check out my 
                 <a href="https://github.com/flynnkennethd" target="_blank" rel="noopener noreferrer">GitHub</a>
             </p>
         </footer>
-        <script src='script.js'></script>
+        
     </body>
 </html>
