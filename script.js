@@ -64,9 +64,9 @@ class Calculator {
         this.operator = undefined;
         this.prevNum = '';
     }
-    
+
     updateDisplay() {
-        this.currentNumDiv.innerText = this.this.currentNum;
+        this.currentNumDiv.innerText = this.currentNum;
         if(this.operator != null) {
             this.prevNumDiv.innerText = 
             `${this.prevNum} ${this.operator}`
