@@ -43,6 +43,8 @@ body {
     border: white;
     border-style: solid;
     border-width: 2px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 #previous-displayed {
     font-size: 1.5em;
