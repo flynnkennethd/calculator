@@ -14,9 +14,12 @@ body {
 }
  header {
      text-align: center;
+     color: whitesmoke;
+     font-size: 1.5em;
  }
  footer {
      text-align: center;
+     color: whitesmoke;
  }
 /*calculator*/
 
@@ -24,7 +27,7 @@ body {
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 85vh;
+    min-height: 80vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
     border-style: solid;
@@ -58,5 +61,5 @@ body {
     cursor: pointer;
 }
 #calculator-body > button:hover {
-    background-color: rgba(255, 255, 255, 95%);
+    background-color: rgba(255, 255, 255, 80%);
 }
